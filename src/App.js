@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from './components/header';
 import NavBar from './components/navbar';
 import MessageBox from './components/messageBox';
