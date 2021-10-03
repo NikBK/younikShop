@@ -1,0 +1,176 @@
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100vw; */
+    box-sizing: border-box;
+}
+#logo{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header-sections{
+    font-size: 20px;
+    font-weight: 500;
+}
+#search-bar{
+    border: 1px solid grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    overflow: hidden;
+}
+#search-icon{
+    padding: 10px 5px;
+}
+#search-input{
+    min-width: 450px;
+    line-height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+#logo, .header-sections, #search-icon, #fav-icon, #profile-icon, #cart-icon, .navbar-item, .offer-links, .offer-circle, .circle-icon{
+    cursor: pointer;
+}
+#fav-icon, #profile-icon, #cart-icon{
+    font-size: 30px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.navbar-item{
+    line-height: 50px;
+}
+
+#message-container{
+    padding: 10px;
+}
+#message-box{
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Founders Grotesk Mono, monospace;
+}
+
+#offer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+    height: fit-content;
+    background-color: rgb(252, 135, 124);
+}
+#offer-message-box{
+    margin: 20px;
+}
+#offer-message-heading{
+    font-size: 2.2rem;
+}
+#offer-message-details{
+    font-size: 1.2rem;
+}
+.offer-links{
+    font-weight: 600;
+    text-decoration: underline;
+}
+#offer-message-shopnow{
+    margin: 20px 0 10px;
+}
+#offer-percentage-box{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer-circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 20px;
+}
+.offer-percentage{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#new-arrival-container{
+    width: 95%;
+    height: fit-content;
+    margin: 20px auto;
+    display: flex;
+}
+#new-arrival-textBox, #new-arrival-imageBox{
+    width: 50%;
+}
+#new-arrival-textBox{
+    text-align: left;
+    font-family: Graphik,sans-serif;
+    background-color: #EDAB2F;
+    padding: 50px;
+}
+#new-arrival-heading{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 20px;
+}
+#new-arrival-title{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 20px;
+}
+#new-arrival-content{
+    margin: 20px;
+}
+#new-arrival-btn{
+    margin: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+#homecards-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-card{
+    margin-bottom: 20px;
+    height: 600px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+#social{
+    padding: 20px 10px;
+}
+.circle-icon{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.circle-icon:active{
+    color: blue;
+}
+#app-store{
+    display: inline-flex;
+    flex-direction: column;
+}
